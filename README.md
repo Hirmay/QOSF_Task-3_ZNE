@@ -13,3 +13,4 @@ This is the submission repo for the screening **Task 3 (ZNE)** for QOSF mentorsh
     * MITIQ
     * https://arxiv.org/pdf/2402.15879.pdf (5.1.2)
     * https://github.com/RamAIbot/QOSF_errormitigation
+    * https://arxiv.org/pdf/2112.00387.pdf
