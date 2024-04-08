@@ -10,8 +10,8 @@ This is an implementation of Zero Noise Extrapolation as part of the task-3 of t
       5) Compare mitigated and unmitigated results
       6) Bonus: Run your ZNE function in real quantum hardware through the IBM Quantum Service
 2. Resources:
-   [1] [Review of ZNE and improvements](https://arxiv.org/abs/2005.10921)
+   1. [Review of ZNE and improvements](https://arxiv.org/abs/2005.10921)
    
-   [2] [Mitiq](https://mitiq.readthedocs.io/en/stable/guide/zne-5-theory.html)
+   2. [Mitiq](https://mitiq.readthedocs.io/en/stable/guide/zne-5-theory.html)
    
-   [3] [Original ZNE paper](https://arxiv.org/abs/1611.09301) 
+   3. [Original ZNE paper](https://arxiv.org/abs/1611.09301) 
