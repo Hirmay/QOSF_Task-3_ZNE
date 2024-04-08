@@ -11,9 +11,20 @@ Secondly, `QOSF_ZNE.ipynb` contains my understanding of the topic, possible exte
       4) Apply the extrapolation method to get the zero-noise limit. Different extrapolation methods achieve different results, such as Linear, quadratic, polynomial, power, and exponential.
       5) Compare mitigated and unmitigated results
       6) Bonus: Run your ZNE function in real quantum hardware through the IBM Quantum Service (class enables this, but couldn't run because of long waiting time)
-2. References:
+
+
+2. Results:
+
+   ![Screenshot from 2024-04-09 00-33-24](https://github.com/Hirmay/QOSF_Task-3_ZNE/assets/56473003/81e6e6bf-8c84-47e3-88cf-0b2679251292)
+
+   ![Screenshot from 2024-04-09 00-33-42](https://github.com/Hirmay/QOSF_Task-3_ZNE/assets/56473003/3abe1518-fa89-42a8-b5bb-e94e45d1ebfa)
+   
+   ![Screenshot from 2024-04-09 00-32-14](https://github.com/Hirmay/QOSF_Task-3_ZNE/assets/56473003/2899a743-78f6-465d-ba84-fd7eee92affc)
+
+4. References:
    1. [Review of ZNE and improvements](https://arxiv.org/abs/2005.10921)
    
    2. [Mitiq](https://mitiq.readthedocs.io/en/stable/guide/zne-5-theory.html)
-   
+
    3. [Original ZNE paper](https://arxiv.org/abs/1611.09301) 
+   
