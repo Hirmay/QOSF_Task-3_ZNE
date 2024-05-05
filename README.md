@@ -19,7 +19,8 @@ Secondly, `QOSF_ZNE.ipynb` contains my understanding of the topic, possible exte
 
    ![Screenshot from 2024-04-09 00-33-42](https://github.com/Hirmay/QOSF_Task-3_ZNE/assets/56473003/3abe1518-fa89-42a8-b5bb-e94e45d1ebfa)
    
-   ![Screenshot from 2024-04-09 00-32-14](https://github.com/Hirmay/QOSF_Task-3_ZNE/assets/56473003/2899a743-78f6-465d-ba84-fd7eee92affc)
+   ![Screenshot from 2024-05-05 22-31-39](https://github.com/Hirmay/QOSF_Task-3_ZNE/assets/56473003/eea5c985-2b13-4356-8487-0ae7513c1424)
+
 
 4. References:
    1. [Review of ZNE and improvements](https://arxiv.org/abs/2005.10921)
