@@ -22,7 +22,7 @@ def power_func(x,a,b,p):
     return a + b* p ** (-x)
 
 # this is a simple implementation of some arbitrary circuit
-def QuantumCircuit_Generator(Layers, num_qubits, params, N_1_flag=False, m_value=0):
+def QuantumCircuit_Generator(Layers, num_qubits, params, N_1_flag=False, m_value=1):
     qc = QuantumCircuit(num_qubits)
     for iter in range(Layers):            
         for j in range(num_qubits):
@@ -50,7 +50,7 @@ def count_gates(qc_gate_dict):
 def apply_folding_method(qc, m_value):
     # m_value determines the repetition
     gates_count = count_gates(dict(qc.count_ops()))
-    total_gate_fold = int(m_value*gates_count)
+    total_gate_fold = int((m_value-1)*gates_count)
     for i in range(total_gate_fold):
         circuit_data = qc.data[i]
         operation = circuit_data.operation
@@ -150,7 +150,7 @@ class DepolarizingNoiseModel:
         # use the extrapolation method to find the appropriate function
         linear_function = np.poly1d(np.polyfit(x=self.noise_levels, y=self.results_data, deg=1))
         quadratic_function = np.poly1d(np.polyfit(x=self.noise_levels, y=self.results_data, deg=2))
-        polynomial_function = np.poly1d(np.polyfit(x=self.noise_levels, y=self.results_data, deg=5))
+        polynomial_function = np.poly1d(np.polyfit(x=self.noise_levels, y=self.results_data, deg=4))
         # based on the equation 9 of reference [1]
         x=np.array(self.noise_levels)
         y=np.array(self.results_data)
